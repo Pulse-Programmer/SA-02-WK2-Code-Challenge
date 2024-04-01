@@ -16,6 +16,6 @@ function swapCase(words) {
 //test code//
 console.log(
   swapCase(
-    "The Only Sacrifices Worthy to be made Are Those That lead to 'True Fulfilment'",
+    "The Sacrifices Worthy to be made Are Those That lead to Fulfilment",
   ),
 );
