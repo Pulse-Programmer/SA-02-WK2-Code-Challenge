@@ -2,7 +2,7 @@ function swapCase(words) {
   if (typeof words === "string") {
     charArr = Array.from(words); //to convert the input string into an array of individual characters
 
-    //swaps the characters in the created array from lowercase to uppercase and vice-versa depending on current state
+    //swaps the characters in the created array from lowercase to uppercase and vice-versa depending on current case
     let alteredChars = charArr.map((item) => {
       if (item === item.toUpperCase()) {
         return item.toLowerCase();
